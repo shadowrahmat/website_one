@@ -26,7 +26,7 @@ body {
   list-style: none;
 }
 
-#navigation li > a {
+#navigation > ul > li > a {
   text-decoration: none;
   color: aliceblue;
   font-size: 20px;
@@ -44,4 +44,45 @@ body {
 .logo_tittle h1 {
   margin-left: 50px;
   color: aliceblue;
+}
+
+/* drop down menu design */
+
+.dropdown_menu {
+  background-color: brown;
+  text-align: center;
+  margin-top: 28px;
+  width: 150px;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.9s;
+}
+
+.dropdown_menu > li {
+  list-style: none;
+  padding: 10px 15px;
+  border-bottom: 1px solid white;
+}
+
+.dropdown_menu > li:hover {
+  background-color: yellow;
+}
+
+.dropdown_menu > li > a:hover {
+  color: black;
+}
+
+.dropdown_menu > li:first-child {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.dropdown_menu > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+#navigation > ul > li:hover > .dropdown_menu {
+  opacity: 1;
+  visibility: visible;
 }
