@@ -10,11 +10,17 @@ body {
 }
 
 #navigation {
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
+  background-image: linear-gradient(rgb(0, 128, 255),rgba(2, 57, 113, 0.768));
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 12px 0;
+}
+
+.logo_tittle > h1 > span {
+  color: yellow;
+  font-size: 44px;
 }
 
 #navigation > ul {
@@ -57,6 +63,9 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: 0.9s;
+  transform: scaley(0);
+  transform-origin: top;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.549);
 }
 
 .dropdown_menu > li {
@@ -85,4 +94,5 @@ body {
 #navigation > ul > li:hover > .dropdown_menu {
   opacity: 1;
   visibility: visible;
+  transform: scaley(1);
 }
