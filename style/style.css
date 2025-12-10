@@ -11,7 +11,7 @@ body {
 
 #navigation {
   /* background-color: dodgerblue; */
-  background-image: linear-gradient(rgb(0, 128, 255),rgba(2, 57, 113, 0.768));
+  background-image: linear-gradient(rgb(0, 128, 255), rgba(2, 57, 113, 0.768));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,17 +99,47 @@ body {
 
 /* Banner section desing */
 #main_area {
-  min-height: 90vh;
-  background-image: url('/Images/web\ header.jpg');
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(60, 58, 58, 0.747),
+      rgba(0, 0, 0, 0.696)
+    ),
+    url("/Images/web\ header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
+
   align-items: center;
   justify-content: center;
-  
+  text-align: center;
 }
 
-#main_area > .banner_content {
-  
+.banner_content > h1 {
+  font-size: 60px;
+  color: white;
+}
+.banner_content > p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.banner_content > button {
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  background-color: #0e7dec;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.banner_content > button:hover {
+  background-color: transparent;
+  border: 2px solid #0e7dec;
+  color: black;
 }
