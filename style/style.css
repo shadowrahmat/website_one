@@ -58,7 +58,7 @@ body {
   background-color: brown;
   text-align: center;
   margin-top: 28px;
-  width: 150px;
+  width: 130px;
   position: absolute;
   opacity: 0;
   visibility: hidden;
@@ -136,10 +136,36 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   transition: 0.5s;
+  margin-bottom: 20px;
 }
 
 .banner_content > button:hover {
   background-color: transparent;
-  border: 2px solid #0e7dec;
-  color: black;
+  border: 2px solid #00356a;
+  color: rgb(113, 3, 3);
+}
+
+.social_icon > a {
+  color: rgb(19, 23, 0);
+  margin-right: 8px;
+  
+}
+
+.social_icon > a > i {
+  width: 50px;
+  height: 50px;
+  line-height: 2.4;
+  font-size: 22px;
+  background-color: yellow;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 100%;
+  transition: 0.9s;
+}
+
+.social_icon > a > i:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  transform: rotate(45deg);
 }
