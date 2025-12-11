@@ -169,3 +169,42 @@ body {
   border: 1px solid white;
   transform: rotate(45deg);
 }
+
+/* learn section design */
+.learn_section {
+  padding: 100px 0;
+  background: gray;
+}
+
+.learn_section > .container_items {
+  display: flex;
+  gap: 20px;
+  width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.container_items > .item {
+  background-color: rgb(128, 116, 116);
+  padding: 35px;
+  border-radius: 6px;
+  transition: 0.5s;
+
+}
+
+.item > i {
+  font-size: 40px;
+}
+
+.item > h1 {
+  font-weight: 300;
+  margin: 12px 0;
+}
+.item > p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container_items > .item:hover {
+  box-shadow: 4px 4px 10px rgba(20, 20, 20, 0.54);
+}
