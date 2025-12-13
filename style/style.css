@@ -328,14 +328,14 @@ body {
   margin-bottom: 50px;
 }
 .img_box {
-  width: 300px;
+  width: 350px;
 }
 
 .img_box > img {
   max-width: 100%;
 }
 .course_item {
-  width: 300px;
+  width: 350px;
   text-align: center;
   box-shadow: 2px 2px 4px rgb(71, 71, 71);
   
