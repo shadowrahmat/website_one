@@ -378,7 +378,7 @@ body {
 /* testomonial section design */
 .testomonial_section {
   padding: 100px 0;
-  background-color: grey;
+  background-color: rgb(236, 236, 236);
 }
 .testomonial_container {
 }
@@ -391,6 +391,7 @@ body {
   font-family: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 .testomonial_parent {
   width: 1250px;
@@ -398,10 +399,12 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  
 }
 .testomonial_item {
   display: flex;
   align-items: center;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 .testomonial_img {
   width: 200px;
@@ -419,4 +422,10 @@ body {
 }
 .testomonial_name {
   font-size: 28px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.rating {
+  color: darkgoldenrod;
+  margin-top: 10px;
 }
