@@ -274,3 +274,39 @@ body {
   border: 2px solid #00356a;
   color: rgb(0, 0, 0);
 }
+
+/* services section design */
+.service_section {
+  padding: 100px 0;
+  background-color: rgb(240, 240, 240);
+}
+.service_tittle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service_tittle > h4 {
+  font-size: 30px;
+}
+.service_tittle > h2 {
+  font-size: 45px;
+}
+.services_container {
+  
+  width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+.item {
+  background-color: rgb(179, 162, 162);
+  padding: 35px;
+  text-align: center;
+  transition: 0.9s;
+}
+.item:hover {
+  box-shadow: 4px 4px 6px rgb(91, 91, 91);
+}
+.item > h2 {
+  margin: 12px 0;
+}
