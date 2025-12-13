@@ -338,7 +338,6 @@ body {
   width: 350px;
   text-align: center;
   box-shadow: 2px 2px 4px rgb(71, 71, 71);
-  
 }
 
 .course_item > h3 {
@@ -350,13 +349,11 @@ body {
   border-bottom: 2px dashed black;
   padding: 15px 0;
   margin: 15px 20px;
-  
 }
 .price {
   font-size: 30px;
 }
-.course_item > button{
-
+.course_item > button {
   padding: 15px 30px;
   border: none;
   background-color: brown;
@@ -366,15 +363,60 @@ body {
   transition: 0.9s;
   cursor: pointer;
 }
-.course_item > button:hover{
+.course_item > button:hover {
   background-color: transparent;
   border: 1px solid red;
   color: black;
-
 }
 .course_item > a {
   text-decoration: none;
   font-size: 18px;
   display: inline-block;
   margin-bottom: 20px;
+}
+
+/* testomonial section design */
+.testomonial_section {
+  padding: 100px 0;
+  background-color: grey;
+}
+.testomonial_container {
+}
+.testomonial_tittle > h2 {
+  text-align: center;
+  font-size: 45px;
+}
+.testomonial_tittle > h4 {
+  text-align: center;
+  font-family: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.testomonial_parent {
+  width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.testomonial_item {
+  display: flex;
+  align-items: center;
+}
+.testomonial_img {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.testomonial_img img {
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testomonial_item {
+  background-color: bisque;
+  padding: 30px;
+}
+.testomonial_name {
+  font-size: 28px;
 }
