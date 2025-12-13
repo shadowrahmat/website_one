@@ -336,4 +336,45 @@ body {
 }
 .course_item {
   width: 300px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgb(71, 71, 71);
+  
+}
+
+.course_item > h3 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.course_price {
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  padding: 15px 0;
+  margin: 15px 20px;
+  
+}
+.price {
+  font-size: 30px;
+}
+.course_item > button{
+
+  padding: 15px 30px;
+  border: none;
+  background-color: brown;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  transition: 0.9s;
+  cursor: pointer;
+}
+.course_item > button:hover{
+  background-color: transparent;
+  border: 1px solid red;
+  color: black;
+
+}
+.course_item > a {
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
