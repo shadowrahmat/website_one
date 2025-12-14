@@ -429,3 +429,25 @@ body {
   color: darkgoldenrod;
   margin-top: 10px;
 }
+/* parallax section design */
+.parallax {
+  padding: 100px 0;
+  
+  background-image: url('');
+}
+.parallax_container {
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.parallax_item > i {
+  font-size: 45px;
+  margin-bottom: 10px;
+} 
+
+.parallax_item  h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
