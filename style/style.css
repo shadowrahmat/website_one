@@ -544,7 +544,7 @@ body {
 .contact_container {
   max-width: 1250px;
   margin: 0 auto;
-  border: 4px solid red;
+  
 }
 .form_containr {
   background-color: grey;
@@ -558,4 +558,57 @@ form {
 }
 .contact_map {
   width: 50%;
+}
+
+.form_input_line input {
+  width: 200px;
+  height: 40px;
+  margin: 0 20px;
+  border: none;
+  padding: 10px 15px;
+}
+
+.form_input_line h4 {
+  margin: 40px 20px 10px 20px;
+}
+.subject_input {
+  width: 480px;
+  height: 50px;
+  margin: 0 20px;
+  padding: 10px 15px;
+}
+
+.sub_input_text {
+  margin: 10px 20px;
+}
+.form_textarea {
+  width: 480px;
+  height: 50px;
+  margin: 0 20px;
+  padding: 10px 15px;
+}
+.form_button {
+  background-color: blue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  margin: 10px 20px;
+}
+.contact_info {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+.contact_item i {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.info {
+  font-size: 20px;
+  font-weight: bold;
 }

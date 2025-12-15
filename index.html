@@ -480,27 +480,44 @@
         </div>
         <div class="contact_container">
           <div class="form_containr">
-            <form action="">
+            <form action="form_taq">
               <div class="form_input_line">
                 <div>
                   <h4>Full Name:</h4>
-                  <input type="text" name="Full Name" id="Full Name" />
+                  <input
+                    type="text"
+                    name="Full Name"
+                    id="Full Name"
+                    placeholder="Full Name"
+                  />
                 </div>
                 <div>
                   <h4>Email:</h4>
-                  <input type="email" name="Email" id="Email" />
+                  <input
+                    type="email"
+                    name="Email"
+                    id="Email"
+                    placeholder="email"
+                  />
                 </div>
               </div>
-              <h4>Subject</h4>
-              <input type="text" class="Subject" id="Subject" />
-              <h4>Message</h4>
+              <h4 class="sub_input_text">Subject</h4>
+              <input
+                class="subject_input"
+                type="text"
+                class="Subject"
+                id="Subject"
+                placeholder="Subject Here"
+              />
+              <h4 class="sub_input_text">Message</h4>
               <textarea
+                class="form_textarea"
                 name="Message"
                 id="Message"
                 rows="10"
                 cols="30"
               ></textarea>
-              <button type="submit">Send Message</button>
+              <button class="form_button" type="submit">Send Message</button>
             </form>
             <div class="contact_map">
               <iframe
@@ -514,7 +531,24 @@
               ></iframe>
             </div>
           </div>
-          <div class="contact_info"></div>
+          <div class="contact_info">
+            <div class="contact_item">
+              <i class="fa-solid fa-location-dot"></i>
+              <p><span class="info">Address:</span> Rajbari,Bangladesh</p>
+            </div>
+            <div class="contact_item">
+              <i class="fa-solid fa-phone"></i>
+              <p><span class="info">Phone:</span>  +8801795174540</p>
+            </div>
+            <div class="contact_item">
+              <i class="fa-solid fa-envelope"></i>
+              <p><span class="info">Email:</span>  sadmanhafizrahmat@gmail.com</p>
+            </div>
+            <div class="contact_item">
+              <i class="fa-solid fa-earth-africa"></i>
+              <p><span class="info">Website:</span>  rahmat.com</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
