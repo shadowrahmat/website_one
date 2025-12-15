@@ -544,7 +544,6 @@ body {
 .contact_container {
   max-width: 1250px;
   margin: 0 auto;
-  
 }
 .form_containr {
   background-color: grey;
@@ -599,7 +598,6 @@ form {
   display: flex;
   justify-content: space-between;
   text-align: center;
-
 }
 .contact_item i {
   background-color: blue;
@@ -611,4 +609,27 @@ form {
 .info {
   font-size: 20px;
   font-weight: bold;
+}
+/* footer section design */
+footer{
+  background-color: rgb(102, 102, 220);
+  color: rgb(211, 211, 211);
+}
+.footer_container {
+  padding: 100px 0;
+  width: 1250px;
+  margin: 0 auto;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_item {
+  width: 250px;
+  
+}
+.footer_item > h3 {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
 }
