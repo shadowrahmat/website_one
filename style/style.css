@@ -611,8 +611,8 @@ form {
   font-weight: bold;
 }
 /* footer section design */
-footer{
-  background-color: rgb(102, 102, 220);
+footer {
+  background-color: rgb(10, 10, 89);
   color: rgb(211, 211, 211);
 }
 .footer_container {
@@ -623,13 +623,46 @@ footer{
 .footer_content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .footer_item {
-  width: 250px;
-  
+  width: 275px;
 }
 .footer_item > h3 {
   font-size: 28px;
   color: white;
   margin-bottom: 20px;
+}
+.footer_descripion {
+  margin-bottom: 20px;
+}
+.footer_icon_text {
+  margin: 10px 0;
+}
+.footer_item p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.footer_item i {
+  color: white;
+  margin-right: 8px;
+}
+.footer_details ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer_details ul li {
+  list-style: none;
+  margin-top: 40px;
+}
+.footer_details ul li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+.footer_details P {
+  margin-top: 20px;
+  text-align: center;
+
 }
